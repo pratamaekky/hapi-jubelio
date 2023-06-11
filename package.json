@@ -1,0 +1,21 @@
+{
+  "name": "hapi-jubelio",
+  "version": "1.0.0",
+  "description": "API for Adjustment Transaction, Technical Test Jubelio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pratama Ekky Putra",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "dotenv": "^16.1.4",
+    "hapi": "^18.1.0",
+    "hapi-controllers": "^3.0.1",
+    "hapi-pgsql": "^1.0.2",
+    "hapi-plugin-pg": "^1.1.2",
+    "hapi-postgres-connection": "^7.0.0",
+    "joi": "^17.9.2"
+  }
+}

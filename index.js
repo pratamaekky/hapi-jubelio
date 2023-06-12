@@ -18,21 +18,11 @@ const init = async () => {
         }
     })
 
-    // server.route({
-    //     method: 'GET',
-    //     path: '/dbconn/',
-    //     handler: async (request, h) => {
-    //         const products = await request.pgsql.query('SELECT * FROM products')
-    //         return products;
-    //     }
-    // });
-
     await server.start();
     console.log('Server running on %s', server.info.uri);
 };
 
 process.on('unhandledRejection', (err) => {
-
     console.log(err);
     process.exit(1);
 });

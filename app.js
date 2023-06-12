@@ -16,7 +16,6 @@ server.register({
     register: require('hapi-plugin-pg'),
     options: {
         connectionString: 'postgres://postgres:!Int3r08@localhost:5432/jubelio'
-       
   }
 }, (err) => {
     if (err) {
